@@ -10,7 +10,7 @@ Durante la última semana he estado leyendo la fantástica novela Still Life, de
 
 **Plautilla Nelli (1524–1588).** Fue la primera mujer pintora de El Renacimiento. Según Winman, durante esta época, a las mujeres se les prohibía participar en las artes o las ciencias y sólo los conventos proporcionaban un espacio para la expresión personal, por lo que con frecuencia las mujeres de "buenas familias" y con inclinaciones creativas encontraban refugio en estos lugares. Plautilla Nelli fue una monja, artista autodidacta de Florencia que desafió las convenciones de la época y llegó a ser muy exitosa, consiguió incluso dirigir una escuela en la que le enseñó a varias discípulas.  
 <figure>
-  <img src="Pictures/Plautilla.jpg" alt="Imagen" width="100%">
+  <img src="/Pictures/Plautilla.jpg" alt="La última cena de Plautilla Nelli" width="100%">
   <figcaption>La última cena. Plautilla Nelli</figcaption>
 </figure>
 

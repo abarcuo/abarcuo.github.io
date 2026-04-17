@@ -13,7 +13,7 @@ La entrada de esta semana tiene un poco de trampa, pero me ha servido para refle
 
 Devine también afirma que  las estrategias para romper estos sesgos incluyen observar cómo surgen los estereotipos y sustituirlos mentalmente, buscar activamente explicaciones situacionales para el comportamiento de una persona e intentar imaginar cómo sería y se sentiría el mundo desde el punto de vista de otra persona.
 <figure>
-  <img src="Pictures/rutina.jpg" alt="Imagen" width="80%">
+  <img src="/Pictures/rutina.jpg" alt="Ilustración sobre rutinas y sesgos" width="80%">
   <figcaption>Tomado de: https://www.escritosenlacalle.com/ </figcaption>
 </figure>
 
