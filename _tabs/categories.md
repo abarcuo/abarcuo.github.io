@@ -10,7 +10,8 @@ subtitle: Explora los artículos por tema.
 {%- if categories.size > 0 -%}
 <div class="taxonomy-list">
   {%- for cat in categories -%}
-    <a href="{{ '/categories/' | append: cat[0] | slugify | relative_url }}/">
+    {%- assign cat_slug = cat[0] | slugify -%}
+    <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}">
       {{ cat[0] }}
       <span class="count">{{ cat[1].size }}</span>
     </a>

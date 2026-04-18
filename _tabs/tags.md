@@ -10,7 +10,8 @@ subtitle: Todas las etiquetas del blog.
 {%- if tags.size > 0 -%}
 <div class="taxonomy-list">
   {%- for tag in tags -%}
-    <a href="{{ '/tags/' | append: tag[0] | slugify | relative_url }}/">
+    {%- assign tag_slug = tag[0] | slugify -%}
+    <a href="{{ '/tags/' | append: tag_slug | append: '/' | relative_url }}">
       #{{ tag[0] }}
       <span class="count">{{ tag[1].size }}</span>
     </a>
