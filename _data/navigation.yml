@@ -1,0 +1,10 @@
+# Masthead navigation
+main:
+  - title: "Archivo"
+    url: /archive/
+  - title: "Categorías"
+    url: /categories/
+  - title: "Etiquetas"
+    url: /tags/
+  - title: "Sobre mí"
+    url: /about/

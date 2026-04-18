@@ -1,106 +1,86 @@
 # ---------------------------------------------------------------
-# Flujo Libre — Site configuration
+# Flujo Libre — Minimal Mistakes configuration
+# Theme docs: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 # ---------------------------------------------------------------
 
+# Remote theme (works on GitHub Pages + GH Actions)
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+# Skin: air = light blues, clean (aquatic feel)
+minimal_mistakes_skin: "air"
+
 # Site identity
-title:       Flujo Libre
-tagline:     Blog personal de Fabio Amador
-description: >-
-  Reflexiones sobre el agua, la ingeniería, la historia y la literatura.
+locale:          "es-CO"
+title:           "Flujo Libre"
+title_separator: "-"
+subtitle:        "Blog personal de Fabio Amador"
+name:            "Fabio Amador"
+description:     >-
+  Reflexiones sobre el agua, la ingeniería y la literatura.
   Un blog personal de Fabio Amador.
 
-author:
-  name:  Fabio Amador
-  email: fabioama@hotmail.com
+url:      "https://abarcuo.github.io"
+baseurl:  ""
+repository: "abarcuo/abarcuo.github.io"
+words_per_minute: 200
 
-# Language & timezone
-lang:     es-CO
-timezone: America/Bogota
+# Search (built-in MM client-side)
+search:              true
+search_full_content: true
+search_provider:     lunr
+lunr:
+  search_within_pages: true
 
-# URL
-url:     "https://abarcuo.github.io"
-baseurl: ""
+# Comments, feed
+comments:
+  provider: false
+atom_feed:
+  hide: false
 
-# Avatar (used on about/footer if desired)
-avatar: https://media.licdn.com/dms/image/v2/D4E03AQEo9w2kXufdvw/profile-displayphoto-shrink_800_800/B4EZTMlb..G0Ag-/0/1738599155399?e=1745452800&v=beta&t=M-2tn4r7kn3CENq-owyKkW0TMkbf_kiQvVIDtyPhcYA
-
-# Social
-github:
-  username: abarcuo
-
+# SEO / social
+twitter:
+  username: ""
 social:
-  name:  Fabio Amador
-  email: fabioama@hotmail.com
+  type:   Person
+  name:   "Fabio Amador"
   links:
-    - https://www.linkedin.com/in/fabio-amador-713576234/
+    - "https://www.linkedin.com/in/fabio-amador-713576234/"
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-archives
+# Author profile (sidebar on posts + bio on about)
+author:
+  name:   "Fabio Amador"
+  avatar: "/Pictures/Perfil.jpeg"
+  bio:    "Ingeniero Civil. Apasionado por el agua y la literatura."
+  location: "Bogotá, Colombia"
+  #email:  "fabioama@hotmail.com"
+  links:
+    - #label: "Email"
+      #icon:  "fas fa-fw fa-envelope-square"
+      #url:   "mailto:fabioama@hotmail.com"
+    - label: "LinkedIn"
+      icon:  "fab fa-fw fa-linkedin"
+      url:   "https://www.linkedin.com/in/fabio-amador-713576234/"
+    - label: "Instagram"
+      icon:  "fab fa-fw fa-instagram"
+      url:   "https://www.instagram.com/abarcuo/"
 
-# Pagination
-paginate: 10
+# Footer links
+footer:
+  links:
+    - #label: "Email"
+      #icon:  "fas fa-fw fa-envelope-square"
+      #url:   "mailto:fabioama@hotmail.com"
+    - label: ""
+      icon:  "fab fa-fw fa-linkedin"
+      url:   "https://www.linkedin.com/in/fabio-amador-713576234/"
+    - label: ""
+      icon:  "fab fa-fw fa-instagram"
+      url:   "https://www.instagram.com/abarcuo/"
 
-# Markdown
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
+# Reading files / collections
+include:
+  - _pages
 
-# Sass
-sass:
-  style: compressed
-  sass_dir: _sass
-
-# Collections
-collections:
-  tabs:
-    output: true
-    sort_by: order
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      permalink: /posts/:title/
-  - scope:
-      path: ""
-      type: tabs
-    values:
-      layout: page
-      permalink: /:title/
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive
-    tag: archive
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
-
-# Excludes
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -115,6 +95,66 @@ exclude:
   - "package*.json"
   - purgecss.js
   - rollup.config.js
+  - preview.html
 
-# SEO / site-wide image (optional)
-social_preview_image:
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Archives (MM built-in)
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Defaults
+defaults:
+  # Posts: sidebar con autor, read time, relacionados
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+      show_date: true
+      toc: false
+      permalink: /posts/:title/
+
+  # Páginas de _pages (about, etc.)
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+# Timezone
+timezone: America/Bogota
