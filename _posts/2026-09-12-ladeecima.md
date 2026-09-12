@@ -12,19 +12,19 @@ La décima es una estrofa de diez versos de ocho sílabas cuyo uso en la lírica
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start;">
   <div style="flex: 1; max-width: 400px;">
     <img src="/Pictures/1.png" alt="Diversas Rimas (Vicente Espinel)" style="width: 100%; height: auto; border: 1px solid #ddd; padding: 10px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666;">Décima clásica</p>
+    <p style="text-align: center; font-size: 0.9em; color: #666;">Diversas Rimas (1591) </p>
   </div>
   <div style="flex: 1; max-width: 400px;">
     <img src="/Pictures/2.png" alt="Décima de Vicente Espinel" style="width: 100%; height: auto; border: 1px solid #ddd; padding: 10px;">
-    <p style="text-align: center; font-size: 0.9em; color: #666;">Obras de Vicente Espinel (1591)</p>
+    <p style="text-align: center; font-size: 0.9em; color: #666;">Décima de Vicente Espinel</p>
   </div>
 </div>
 
 Seguramente en su genialidad artística Espinel logró identificar un valor estético en esa forma particular de tejer la rima de los versos, pero también, los expertos reconocen una estructura narrativa en esa métrica. En los primeros cuatro versos de la espinela se describe la idea del poema, mientras que los últimos seis se desarrolla la idea, sin introducir nuevos temas. Después del cuarto verso hay una pausa; se considera que el quinto verso es clave porque es una especie de bisagra que vincula las dos partes de la estrofa.
 
-La asimilación y práctica repetitiva de la estructura de la décima por parte de los poetas facilita recordar o improvisar las composiciones; en muchos lugares de Latinoamérica existen duelos entre decimeros en los que se pone a prueba su agilidad mental para improvisar respetando las métricas, creo que, sin desconocer el valor estético de los poemas, la composición de décimas espinelas es sobre todo un ejercicio mental retador; existen casos excepcionales como el matemático guatemalteco [Pedro Poitevin](https://pedropoitevin.com/es/palindromos/homo-sapiens), que le añade un mayor grado de dificultad al componer décimas que son a la vez palíndromos. En mi familia un par de tíos continuaron el legado de mi abuelo y componen décimas como pasatiempo, las siguientes dos estrofas son mi primer intento, estoy seguro de que no será el último.   
+La asimilación y práctica repetitiva de la estructura de la décima por parte de los poetas facilita recordar o improvisar las composiciones; en muchos lugares de Latinoamérica existen duelos entre decimeros en los que se pone a prueba su agilidad mental para improvisar respetando las métricas, creo que, sin desconocer el valor estético de los poemas, la composición de décimas espinelas es sobre todo un ejercicio mental retador; existen casos excepcionales como el matemático guatemalteco [Pedro Poitevin](https://pedropoitevin.com/es/palindromos/el-destino-del-poeta), que le añade un mayor grado de dificultad al componer décimas que son a la vez palíndromos. En mi familia un par de tíos continuaron el legado de mi abuelo y componen décimas como pasatiempo, las siguientes dos estrofas son mi primer intento, estoy seguro de que no será el último.   
 
 <figure>
-  <img src="/Pictures/poetilla.jpeg" alt="La Justicia" width="40%">
+  <img src="/Pictures/poetilla.jpeg" alt="La Justicia" width="30%">
   <figcaption>El Poetilla </figcaption>
 </figure>
