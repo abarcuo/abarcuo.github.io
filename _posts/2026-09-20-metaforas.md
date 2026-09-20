@@ -22,9 +22,9 @@ En la cosmovisión aimara el conocimiento no se trata de movimiento sino de lo q
 
 ---
 
-[^1]: MacAskill, W. (2022). What We Owe the Future. Basic Books.
+[^2]: MacAskill, W. (2022). What We Owe the Future. Basic Books.
 
-[^2]: Núñez, R. E., & Sweetser, E. (2006). "With the Future Behind Them: Convergent Evidence From Aymara Language and Gesture in the Crosslinguistic Comparison of Spatial Construals of Time." Cognitive Science, vol. 30, no. 3, pp. 401–450.
+[^1]: Núñez, R. E., & Sweetser, E. (2006). "With the Future Behind Them: Convergent Evidence From Aymara Language and Gesture in the Crosslinguistic Comparison of Spatial Construals of Time." Cognitive Science, vol. 30, no. 3, pp. 401–450.
 
 <figure>
   <img src="/Pictures/edificio.jpeg" alt="El Alto" style="width: 100%; max-width: 450px; height: auto;">
